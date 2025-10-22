@@ -1,0 +1,12 @@
+# Minimal GitHub Pages configuration
+title: uni35 Portfolio
+description: A personal portfolio site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""     # the base hostname & protocol for your site, e.g. https://example.com
+github_username: uni35
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
