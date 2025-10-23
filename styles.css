@@ -1,4 +1,4 @@
-/* Base Reset */
+/* 🔧 Base Reset */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-/* Header */
+/* 🧭 Header */
 .site-header {
   background: #fff;
   border-bottom: 1px solid #eee;
@@ -27,18 +27,21 @@ body {
   font-weight: 700;
   color: #111;
 }
+.site-nav {
+  margin-top: 10px;
+}
 .site-nav a {
   text-decoration: none;
   color: #333;
   margin-right: 20px;
   font-weight: 500;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 .site-nav a:hover {
   color: #555;
 }
 
-/* Section Titles and Text */
+/* 📌 Section Titles & Text */
 section {
   padding: 60px 0;
 }
@@ -53,7 +56,7 @@ section li {
   color: #555;
 }
 
-/* Projects */
+/* 🛠️ Projects Section */
 .projects {
   background: #fff;
 }
@@ -67,7 +70,7 @@ section li {
   margin-bottom: 10px;
 }
 
-/* Badge Gallery */
+/* 🏅 Badge Gallery */
 .badge-gallery {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -92,7 +95,7 @@ section li {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive Gallery */
+/* 📱 Responsive Gallery */
 @media (max-width: 1024px) {
   .badge-gallery {
     grid-template-columns: repeat(4, 1fr);
@@ -109,7 +112,7 @@ section li {
   }
 }
 
-/* Modal Viewer */
+/* 🖼️ Modal Viewer */
 .modal {
   display: none;
   position: fixed;
@@ -123,13 +126,11 @@ section li {
   align-items: center;
   flex-direction: column;
 }
-
 .modal img {
-  max-width: 75vw;   /* Half the viewport width */
-  max-height: 75vh;  /* Half the viewport height */
+  max-width: 75vw;
+  max-height: 75vh;
   border-radius: 16px;
 }
-
 .modal span {
   color: white;
   font-size: 40px;
@@ -145,7 +146,7 @@ section li {
   text-align: center;
 }
 
-/* Footer */
+/* 📬 Footer */
 .site-footer {
   background: #222;
   color: #aaa;
