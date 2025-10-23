@@ -43,10 +43,23 @@ body {
 
 /* 🚀 Hero Section */
 .hero {
-  background: linear-gradient(to right, #333, #555);
+  background: url('images/ai.jpg') center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
   text-align: center;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  z-index: 1;
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
 }
 .hero-title {
   font-size: 36px;
@@ -60,6 +73,7 @@ body {
 .hero .btn {
   margin-top: 10px;
 }
+
 
 /* 🔘 Button Styles */
 .btn {
