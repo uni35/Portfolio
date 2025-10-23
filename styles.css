@@ -43,7 +43,7 @@ body {
 
 /* 🚀 Hero Section */
 .hero {
-  background: #333 url('images/ai.jpg') center/cover no-repeat;
+  background: #333 url('images/ai.jpg') contain no-repeat;
   color: #fff;
   padding: 100px 0;
   text-align: center;
