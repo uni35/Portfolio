@@ -127,7 +127,7 @@ section li {
 .modal img {
   max-width: 75vw;   /* Half the viewport width */
   max-height: 75vh;  /* Half the viewport height */
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
 .modal span {
